@@ -32,6 +32,9 @@ input {
     width: 60%;
     max-width: 250px;
 }
+form{
+    height: 55px;
+}
 .header {
     margin: 40px 20px 0;
     font-size: 0;
@@ -74,4 +77,73 @@ input {
 }
 .bodyimg {
     width: 90%;
+}
+article{
+    display: block;
+}
+.publish{
+    display: flexbox;
+}
+.publish h3{
+    font-family: "Alegreya", serif;
+    font-size: 40px;
+    line-height: 48px;
+    color: #025157;
+}
+.publish p{
+    font-size: 16px;
+    color: #343434;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+.publish button {
+    background-color: #025157;
+    color: #fff;
+    border: none;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    padding: 6px 20px;
+    margin-left: -10px;
+}
+.publish input {
+    border: 1px solid #b6b6b6;
+    padding: 6px 20px;
+    width: 60%;
+    max-width: 250px;
+}
+.publish-text p .input{
+    color: #8b8b8bcc;
+    margin-top: 15px;
+}
+.features{
+    background-color: #025157;
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+    padding: 5% 10%;
+}
+.features-card{
+    margin-bottom: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: #fff;
+    border: 1px solid #dadada;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+}
+.features-content{
+    flex: 2;
+}
+.features .features-card .features-content a {
+    font-size: 16px;
+    color: #67b54b;
+    font-weight: 600;
+    text-decoration: none;
+}
+.feature-content.image{
+    margin: 0;
+}
+.feature-content.image img{
+    width: 100px;
 }
